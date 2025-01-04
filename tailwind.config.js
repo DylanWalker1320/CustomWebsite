@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          1: "#AC6AFF", // Highlight
+          2: "#FFC876", // Unused (Previously used in pricing)
+          3: "#FF776F", // Unused (Previously used in pricing)
+          4: "#7ADB78", // Unused 
+          5: "#858DFF", // Unused?
+          6: "#FF98E2", // Unused 
         },
         stroke: {
           1: "#26242C",
@@ -26,12 +26,12 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#0E0C15",
-          9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
+          8: "#0E0C15", // Benefits background, button white text, collaboration centre background
+          9: "#474060", // Notification background
+          10: "#43435C", // Hero top of image
+          11: "#1B1B2E", // Hero sub image background
+          12: "#2E2A41", // Notification profile pic border
+          13: "#6C7275", // Notification subtext
         },
       },
       fontFamily: {
