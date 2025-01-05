@@ -47,11 +47,11 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
+import arcticmania from "./roadmap/arcticmania.png";
+import hamstar from "./roadmap/hamstar.png";
+import mirrormadness from "./roadmap/mirrormadness.png";
+import nchess from "./roadmap/nchess.png";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -70,11 +70,9 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
+import github from "./socials/github.svg";
+import itch from "./socials/Itch.svg";
+import linkedin from "./socials/linkedin.svg";
 
 export {
   brainwave,
@@ -121,11 +119,11 @@ export {
   coins,
   done,
   hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
   undone,
+  arcticmania,
+  hamstar,
+  mirrormadness,
+  nchess,
   notification1,
   notification2,
   notification3,
@@ -141,9 +139,7 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
-  facebook,
-  instagram,
-  telegram,
-  twitter,
+  github,
+  itch,
+  linkedin,
 };
