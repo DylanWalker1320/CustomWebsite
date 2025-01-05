@@ -22,6 +22,7 @@ import {
   plusSquare,
   protopie,
   raindrop,
+  unity,
   recording01,
   recording03,
   roadmap1,
@@ -117,21 +118,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "From design software like Figma to low level languages like C++ and C#, I've got you covered."; 
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Perfectionist",
+    text: "I strive to deliver high-quality work that meets and exceeds expectations.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Efficient",
+    text: "I work quickly and efficiently to meet deadlines and deliver results.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Punctual",
+    text: "I am reliable and punctual, and I always deliver work on time.",
   },
 ];
 
@@ -153,7 +156,7 @@ export const collabApps = [
   {
     id: "2",
     title: "Discord",
-    icon: discord,
+    icon: unity,
     width: 36,
     height: 28,
   },
