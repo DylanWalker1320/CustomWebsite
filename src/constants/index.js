@@ -4,8 +4,9 @@ import {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  chromecast,
-  disc02,
+  kingston,
+  robotics,
+  unityinterface,
   file02,
   homeSmile,
   notification2,
@@ -20,14 +21,11 @@ import {
   java,
   python,
   unity,
-  recording01,
-  recording03,
   arcticmania,
   hamstar,
   mirrormadness,
   nchess,
   searchMd,
-  sliders04,
   github,
   itch,
   linkedin,
@@ -60,20 +58,6 @@ export const navigation = [
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
-
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
 
 export const projects = [
   {
@@ -202,7 +186,7 @@ export const about = [
     text: "I'm a 4th year student at Queen's University studying Computer Science with a focus in Game Development.",
     backgroundUrl: "./src/assets/about/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: kingston,
   },
   {
     id: "1",
@@ -210,7 +194,7 @@ export const about = [
     text: "Passionate about game development and creating immersive experiences for players. I've worked on a variety of projects, from game jams to extensive projects.",
     backgroundUrl: "./src/assets/about/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: unityinterface,
     light: true,
   },
   {
@@ -219,7 +203,7 @@ export const about = [
     text: "I have experience in robotics and automation, having worked on projects that involve building and programming robots for various applications.",
     backgroundUrl: "./src/assets/about/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: robotics,
   },
   // {
   //   id: "3",

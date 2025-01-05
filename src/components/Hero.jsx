@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot } from "../assets";
+import { curve } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -45,6 +45,12 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+
+                <div className="relative z-[2]">
+                  <video autoPlay loop muted playsInline className="w-full h-full object-cover">
+                    <source src="/WebsiteDemo.mp4" type="video/mp4" />
+                  </video>
+                </div>
 
                 {/* 
                 
