@@ -1,12 +1,12 @@
-import { benefits } from "../constants";
+import { about } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
-import { GradientLight } from "./design/Benefits";
+import { GradientLight } from "./design/About";
 import ClipPath from "../assets/svg/ClipPath";
 import Button from "./Button";
 
-const Benefits = () => {
+const About = () => {
   return (
     <Section id="about">
       <div className="container relative z-2">
@@ -15,10 +15,8 @@ const Benefits = () => {
           title="Who I Am:"
         />
 
-        
-
         <div className="flex flex-wrap gap-10 mb-10">
-          {benefits.map((item) => (
+          {about.map((item) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
@@ -71,4 +69,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default About;

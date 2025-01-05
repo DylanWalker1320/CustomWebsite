@@ -234,7 +234,7 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const about = [
   {
     id: "0",
     title: "Queen's Undergraduate",
