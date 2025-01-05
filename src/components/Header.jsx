@@ -75,7 +75,7 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="hidden lg:flex" href="#contact">
+        <Button className="hidden lg:flex" href="mailto:dylan.walker1320@gmail.com">
           Contact Me
         </Button>
 
