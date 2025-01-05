@@ -118,10 +118,10 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
+export const skillsText =
   "From design software like Figma to low level languages like C++ and C#, I've got you covered."; 
 
-export const collabContent = [
+export const skillsContent = [
   {
     id: "0",
     title: "Perfectionist",
@@ -139,7 +139,7 @@ export const collabContent = [
   },
 ];
 
-export const collabApps = [
+export const skillsApps = [
   {
     id: "0",
     title: "Figma",
@@ -195,42 +195,6 @@ export const collabApps = [
     icon: raindrop,
     width: 38,
     height: 32,
-  },
-];
-
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
   },
 ];
 
