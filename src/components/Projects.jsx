@@ -2,17 +2,17 @@ import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
-import { roadmap } from "../constants";
+import { projects } from "../constants";
 import { check2, grid, loading1 } from "../assets";
-import { Gradient } from "./design/Roadmap";
+import { Gradient } from "./design/Projects";
 
-const Roadmap = () => (
+const Projects = () => (
   <Section className="overflow-hidden" id="projects">
     <div className="container md:pb-10">
       <Heading tag="Projects I'm proud to present" title="What I'm working on" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
+        {projects.map((item) => {
           const status = item.status === "done" ? "Done" : "In progress";
 
           return (
@@ -78,4 +78,4 @@ const Roadmap = () => (
   </Section>
 );
 
-export default Roadmap;
+export default Projects;

@@ -62,8 +62,6 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
 export const brainwaveServices = [
   "Photo generating",
   "Photo enhance",
@@ -78,7 +76,7 @@ export const brainwaveServicesIcons = [
   sliders04,
 ];
 
-export const roadmap = [
+export const projects = [
   {
     id: "0",
     title: "Arctic Mania",
