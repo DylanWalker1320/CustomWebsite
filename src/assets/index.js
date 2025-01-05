@@ -25,50 +25,43 @@ import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
-import curve1 from "./collaboration/curve-1.svg";
-import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
-import unity from "./collaboration/unity.png";
+import curve1 from "./skills/curve-1.svg";
+import curve2 from "./skills/curve-2.svg";
+import discord from "./skills/discord.png";
+import figma from "./skills/figma.png";
+import framer from "./skills/framer.png";
+import notion from "./skills/notion.png";
+import photoshop from "./skills/photoshop.png";
+import protopie from "./skills/protopie.png";
+import raindrop from "./skills/raindrop.png";
+import slack from "./skills/slack.png";
+import unity from "./skills/unity.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
-
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
-
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import undone from "./roadmap/undone.svg";
-import arcticmania from "./roadmap/arcticmania.png";
-import hamstar from "./roadmap/hamstar.png";
-import mirrormadness from "./roadmap/mirrormadness.png";
-import nchess from "./roadmap/nchess.png";
+import coins from "./projects/coins.png";
+import done from "./projects/done.svg";
+import hero from "./projects/hero.png";
+import undone from "./projects/undone.svg";
+import arcticmania from "./projects/arcticmania.png";
+import hamstar from "./projects/hamstar.png";
+import mirrormadness from "./projects/mirrormadness.png";
+import nchess from "./projects/nchess.png";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
 import notification4 from "./notification/image-4.png";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
-import benefitCard4 from "./benefits/card-4.svg";
-import benefitCard5 from "./benefits/card-5.svg";
-import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitCard1 from "./about/card-1.svg";
+import benefitCard2 from "./about/card-2.svg";
+import benefitCard3 from "./about/card-3.svg";
+import benefitCard4 from "./about/card-4.svg";
+import benefitCard5 from "./about/card-5.svg";
+import benefitCard6 from "./about/card-6.svg";
+import benefitIcon1 from "./about/icon-1.svg";
+import benefitIcon2 from "./about/icon-2.svg";
+import benefitIcon3 from "./about/icon-3.svg";
+import benefitIcon4 from "./about/icon-4.svg";
+import benefitImage2 from "./about/image-2.png";
 
 import github from "./socials/github.svg";
 import itch from "./socials/Itch.svg";
@@ -111,11 +104,6 @@ export {
   raindrop,
   slack,
   unity,
-  service1,
-  service2,
-  service3,
-  lines,
-  stars,
   coins,
   done,
   hero,
