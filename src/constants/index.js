@@ -22,6 +22,7 @@ import {
   python,
   unity,
   arcticmania,
+  crashkitchen,
   hamstar,
   mirrormadness,
   nchess,
@@ -62,6 +63,16 @@ export const notificationImages = [notification4, notification3, notification2];
 export const projects = [
   {
     id: "0",
+    title: "Crash Kitchen",
+    text: "University capstone project about a delivery van that cooks the food on the go. Played in VR with real-time multiplayer and simulated physics.",
+    date: "Winter 2025",
+    status: "done",
+    link: "https://www.youtube.com/watch?v=UAyBOHtPMK4",
+    imageUrl: crashkitchen,
+    colorful: true,
+  },
+  {
+    id: "1",
     title: "Arctic Mania",
     text: "Game jam project created in one week. A top down shoot-em-up where you play as a penguin fending off the hordes of arctic attackers.",
     date: "August 2023",
@@ -71,7 +82,7 @@ export const projects = [
     colorful: true,
   },
   {
-    id: "1",
+    id: "2",
     title: "N-Piece Chess Solver",
     text: "In a group of 4, we created a take on the N-Queens problem using nothing but predicate logic and constraint satisfaction.",
     date: "November 2022",
@@ -80,7 +91,7 @@ export const projects = [
     imageUrl: nchess,
   },
   {
-    id: "2",
+    id: "3",
     title: "Mirror Madness",
     text: "The most recent game jam project I've participated in. A puzzle platformer made in 48 hours where you use mirrors and various forms of symmetry to complete levels.",
     date: "March 2024",
@@ -89,7 +100,7 @@ export const projects = [
     imageUrl: mirrormadness,
   },
   {
-    id: "3",
+    id: "4",
     title: "Hamstar",
     text: "The first game I've ever worked on. A 2D platformer where you play as a hamster through 6 levels of space themed obstacles.",
     date: "June 2022",
@@ -182,8 +193,8 @@ export const skillsApps = [
 export const about = [
   {
     id: "0",
-    title: "Queen's Undergraduate",
-    text: "I'm a 4th year student at Queen's University studying Computer Science with a focus in Game Development.",
+    title: "Queen's Universtity Graduate",
+    text: "I graduated from Queen's University with a degree in Computer Science, and recieved a degree with distinction.",
     backgroundUrl: "./src/assets/about/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: kingston,
@@ -205,31 +216,6 @@ export const about = [
     iconUrl: benefitIcon3,
     imageUrl: robotics,
   },
-  // {
-  //   id: "3",
-  //   title: "Fast responding",
-  //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-  //   backgroundUrl: "./src/assets/about/card-4.svg",
-  //   iconUrl: benefitIcon4,
-  //   imageUrl: benefitImage2,
-  //   light: true,
-  // },
-  // {
-  //   id: "4",
-  //   title: "Ask anything",
-  //   text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-  //   backgroundUrl: "./src/assets/about/card-5.svg",
-  //   iconUrl: benefitIcon1,
-  //   imageUrl: benefitImage2,
-  // },
-  // {
-  //   id: "5",
-  //   title: "Improve everyday",
-  //   text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-  //   backgroundUrl: "./src/assets/about/card-6.svg",
-  //   iconUrl: benefitIcon2,
-  //   imageUrl: benefitImage2,
-  // },
 ];
 
 export const socials = [

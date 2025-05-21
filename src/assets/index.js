@@ -28,6 +28,7 @@ import unity from "./skills/Unity.svg";
 import done from "./projects/done.svg";
 import undone from "./projects/undone.svg";
 import arcticmania from "./projects/arcticmania.png";
+import crashkitchen from "./projects/crashkitchen.png";
 import hamstar from "./projects/hamstar.png";
 import mirrormadness from "./projects/mirrormadness.png";
 import nchess from "./projects/nchess.png";
@@ -84,6 +85,7 @@ export {
   done,
   undone,
   arcticmania,
+  crashkitchen,
   hamstar,
   mirrormadness,
   nchess,
