@@ -116,7 +116,7 @@ export const skillsText =
 export const skillsContent = [
   {
     id: "0",
-    title: "Perfectionist",
+    title: "Goal-Oriented",
     text: "I strive to deliver high-quality work that meets and exceeds expectations.",
   },
   {
@@ -193,7 +193,7 @@ export const skillsApps = [
 export const about = [
   {
     id: "0",
-    title: "Queen's Universtity Graduate",
+    title: "Queen's University Graduate",
     text: "I graduated from Queen's University with a degree in Computer Science, and recieved a degree with distinction.",
     backgroundUrl: "./src/assets/about/card-1.svg",
     iconUrl: benefitIcon1,
